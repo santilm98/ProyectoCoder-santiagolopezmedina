@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>SkiSmart</title>
+    <meta name="descirption" content="SkiSmart te muestra los mejors lugares para ir a esquiar">
+    <meta name="keyword" content="Ski, Montaña, Esquiar, Centro de esqui, Nieve, Invierno, Lugares, destino">
+</head>
+
+<body>
+    <header>  
+        <div class="cajalogo" >
+            <img src="../fotos/fotoLogo2.png" alt="" class="logo">
+        </div>
+
+        <div class="barraNav">
+            <!-- segundo nav -->
+                <nav class="navbar navbar-expand-md  navbar-dark">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="../index.html">inicio</a>
+                
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/lugares.html">lugares</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/sobremi.html">nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/fotos.html">fotos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> 
+    </header>
+    <main>
+        <section>
+            <h1 class="animate__animated animate__bounce animate__fadeInUp">contacto</h1>
+            <h2>completa el campo para contactarme</h2>
+        </section>
+        <section class="fondoFormulario">
+            <form action="enviar.php" method="get" class="formulario">
+                <fieldset class="cajaFormulario col-12 col-md-6">
+                    <legend class="colorLegend">ingresa tus datos</legend>
+                    <label for="edad" >ingresa tu año de nacimiento</label>
+                        <input type="date" name="edad" class="fondo">
+                    <br>
+                    <label for="nombre">ingresa tu nombre</label>
+                        <input type="text" name="nombre" class="fondo">
+                    <br> 
+                    <label>género:</label>
+                    <br>
+                    <label for="">masculino</label>
+                        <input type="radio" name="sexo">
+                    <label for="">femenino</label>
+                        <input type="radio" name="sexo">
+                    <br>
+                    <br>
+                    <textarea name="consulta" id="" cols="30" rows="10" placeholder="escribe tu comentario" class="fondoTextarea"></textarea>
+                    <br>
+                        <input type="submit" value="enviar" class="fondo">
+                                <input type="reset" value="borrar" class="fondo">
+                </fieldset>
+            </form>
+        </section>
+        <aside>
+            <h2>cómo ubicarme</h2> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8725.577042232826!2d-58.50926487678118!3d-34.599893212743154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7cb900aecc1%3A0x2ce75c056e0a7710!2sPlaza%20Arenales!5e0!3m2!1ses!2sar!4v1640550047668!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+        </aside>
+    </main>
+    <br>
+    <footer>
+        <ul class="listaFooter">
+            <li>
+                <a href="https://www.instagram.com/?hl=es-la"target="_blanck">instagram</a>
+            </li>
+            <li>
+                +541155976137
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/santiago-lopez-medina-b08154187/" target="_blanck">linkedin</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>

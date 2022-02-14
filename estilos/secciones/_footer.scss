@@ -1,0 +1,35 @@
+/* FOOTER */
+/* fotter tabla */
+
+footer{
+    margin: 100px 0px 0px 0px;
+    padding: 30px;
+    border-top: solid 2px #3B434C;
+    background-color: #22262b;
+}
+
+.listaFooter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:#c2c7cc ;
+    
+}
+.listaFooter li{
+    padding:1px;
+    margin: 1px;
+    list-style-type:none;
+    text-decoration: none;
+
+}
+.listaFooter a{
+    padding:5px;
+    margin: 5px;
+    color:#c2c7cc ;
+    border-right:#c2c7cc solid 1px ;
+    border-left: solid #c2c7cc 1px;
+    text-decoration: none;
+}
+.listaFooter a:hover{
+    color: #5C595E;
+}

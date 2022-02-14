@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
+    <title>SkiSmart</title>
+    <meta name="descirption" content="SkiSmart te muestra los mejors lugares para ir a esquiar">
+    <meta name="keyword" content="Ski, Montaña, Esquiar, Centro de esqui, Nieve, Invierno, Lugares, destino">
+</head>
+<body>
+    <header>  
+    <div class="cajalogo">
+        <img src="./fotos/fotoLogo2.png" alt="" class="logo">
+    </div>
+    <div class="barraNav">
+    <!-- segundo nav -->
+        <nav class="navbar navbar-expand-md  navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">inicio</a>
+        
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/lugares.html">lugares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/sobremi.html">nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/fotos.html">fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div> 
+    </header>
+    <main class="inicioMain">
+        <div class="cajaTituloinicio">
+             <h1 class="animate__animated animate__bounce animate__fadeInUp">skiSmart</h1>
+        </div>
+        <section class="cajaInicio">
+            <h2 class="efectoTitulo">info principal</h2>
+                <p class="primerParrafo">Bienvenidos a nuestra pagina principal. Aqui encontraras toda la informacion con los mejores lugares para ir de viaje a esquiar.</p> 
+        </section>
+        <section class="segundoTexto">
+                <p class="segundoParrafo col- col-md-9">¿Alguna vez pensaste en ir de viaje a esquiar, pero no saber a dónde ir? Aquí en skiSmart te traemos la solución. Mes a mes estaremos actualizando la página con los mejores lugares para ir a esquiar.</p>
+        </section>
+        <section class="fotoInicio">
+            <div id="demo" class="carousel slide col-12 col-md-9" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./fotos/centroSki2.jpg" alt="Los Angeles">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fotos/centroSki5.jpg" alt="Chicago">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fotos/centroSki7.jpg" alt="New York">
+                    </div>
+                    </div>
+                
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+        </section>
+        <section class="tercerTexto">
+            <p class="tercerParrafo col- col-md-8">Brindamos un servicio único. Tenemos un equipo de expertos que nos ayudan a recolectar datos de distintos centros de esquí del mundo para poder analizar en términos de calidad precio cual es el mejor destino. Analizamos conceptos como el costo, la movilidad, la comodidad, la cantidad de pistas, el nivel de dificultad o facilidad, y por sobre todas las cosas el paisaje.</p>
+        </section>
+        <aside class="contenedorVideoInicio">
+            <div class="row col-12 col-md-8">
+                <video src="./videos/video.mp4" autoplay controls loop ></video>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <ul class="listaFooter">
+            <li>
+                <a href="https://www.instagram.com/?hl=es-la"target="_blanck">instagram</a>
+            </li>
+            <li>
+                +541155976137
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/santiago-lopez-medina-b08154187/" target="_blanck">linkedin</a>
+            </li>
+        </ul>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>  
+</body>
+</html>

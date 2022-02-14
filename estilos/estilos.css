@@ -1,0 +1,615 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* logo */
+.cajalogo {
+  color: #2A3644;
+  height: 75px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #7D7F81;
+  background-image: url(../fotos/fotoPortadahorizontal.jpg);
+  background-size: 100% 800px;
+  background-position: center;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+/* listas menu */
+/* Menu hamburguesa */
+.navbar {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3B434C), to(#757D8A));
+  background-image: linear-gradient(to right, #3B434C, #757D8A);
+}
+
+.navbar a {
+  color: #D6DDE4;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+/*titulo  */
+h1 {
+  margin: 150px;
+  padding: 10px 0px;
+  /* border: solid red 1px; */
+  color: #3B434C;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* EFECTOS TITULOS */
+h2 {
+  margin: 50px;
+  color: #3B434C;
+  text-transform: capitalize;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+
+p {
+  color: #3B434C;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* TAMAÑO CELU */
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* INICIO */
+/* inicio Main */
+.cajaTituloinicio {
+  background-image: url(../fotos/carreraSki.jpg);
+  border: black solid 1px;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+/*  inicio parrafos */
+.cajaInicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 250px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#D6DDE4), to(#757D8A));
+  background-image: linear-gradient(to right, #D6DDE4, #757D8A);
+}
+
+.primerParrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-image: url(../fotos/nievePortada.jpg);
+  background-size: cover;
+  background-position: auto;
+}
+
+/* segundo texto */
+.segundoTexto {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.tercerTexto {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+}
+
+/* TAMAÑO CELU */
+@media only screen and (max-width: 576px) {
+  .primerParrafo {
+    font-size: small;
+  }
+  .segundoTexto {
+    font-size: small;
+  }
+  .tercerTexto {
+    font-size: small;
+  }
+}
+
+/* inicio fotos CAROUSEL */
+.fotoInicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+}
+
+.fotoInicio .carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* inicio video */
+.contenedorVideoInicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorVideoInicio video {
+  width: 100%;
+  background-size: cover;
+}
+
+/* FOTOS*/
+/* Grid para fotos */
+.galeria {
+  height: 800px;
+  width: 100%;
+  background-color: #3B434C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorGaleria {
+  width: 100%;
+  height: 100%;
+  background-color: #757D8A;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.galeria .img {
+  border: 1px solid #2A3644;
+}
+
+.galeria .img:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+@media only screen and (min-width: 768px) {
+  .img1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    background-image: url(../fotos/centroSki1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-image: url(../fotos/centroSki2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img3 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-image: url(../fotos/centroSki3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img4 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    background-image: url(../fotos/centroSki8.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img5 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    background-image: url(../fotos/centroSki5.jpg);
+    background-position: center;
+  }
+  .img6 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    background-image: url(../fotos/centroSki6.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img7 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-image: url(../fotos/centroSki7.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img8 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-image: url(../fotos/centroSki4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contenedorGaleria {
+    -ms-grid-columns: (5)[5];
+        grid-template-columns: repeat(5, 5);
+  }
+  .img1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-image: url(../fotos/centroSki1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img2 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    background-image: url(../fotos/centroSki2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img3 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    background-image: url(../fotos/centroSki3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img4 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    background-image: url(../fotos/centroSki8.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img5 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    background-image: url(../fotos/centroSki5.jpg);
+    background-position: center;
+  }
+  .img7 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-column: 3/6;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    background-image: url(../fotos/centroSki7.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .img8 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    background-image: url(../fotos/centroSki4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* CONTACTO */
+/* formulario */
+.colorLegend {
+  color: #D6DDE4;
+  text-transform: capitalize;
+}
+
+.fondoFormulario {
+  width: 100%;
+  background-image: url(../fotos/centroSki6.jpg);
+  background-size: cover;
+  background-position: auto;
+}
+
+.formulario {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cajaFormulario {
+  padding: 50px;
+  width: 500px;
+  border: #22262b solid 1px;
+}
+
+label {
+  color: #fdfeff;
+  text-shadow: #22262b;
+}
+
+.fondo {
+  background-color: transparent #D6DDE4;
+}
+
+.fondoTextarea {
+  background-color: transparent #D6DDE4;
+  height: 200px;
+}
+
+/* LUGARES */
+.tituloLugar {
+  margin-top: 100px;
+}
+
+/* fotos lugares CAROUSEL*/
+.cajaImagenLugar {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carouselLugares {
+  width: 100%;
+  height: auto;
+}
+
+.cajaImagenLugar .carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Aside lugares */
+.lugaresMapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  /* parrafo lugar*/
+  .textoLugar {
+    margin: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* ubicacion */
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* parrafo lugar*/
+  .textoLugar {
+    margin: 20px;
+    width: 100%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 15px;
+  }
+  /* ubicacion */
+  iframe {
+    width: 100%;
+    height: 230px;
+  }
+}
+
+/* SOBRE MI */
+/* PARRAFO SOBRE MI */
+.textoSobremi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: #3B434C 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#D6DDE4), to(#757D8A));
+  background-image: linear-gradient(to right, #D6DDE4, #757D8A);
+}
+
+@media only screen and (min-width: 768px) {
+  .parrafoSobremi {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .parrafoSobremi {
+    font-size: 12px;
+  }
+}
+
+.videoSobremi {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.videoSobremi video {
+  width: 100%;
+  background-size: cover;
+}
+
+/* FOOTER */
+/* fotter tabla */
+footer {
+  margin: 100px 0px 0px 0px;
+  padding: 30px;
+  border-top: solid 2px #3B434C;
+  background-color: #22262b;
+}
+
+.listaFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #c2c7cc;
+}
+
+.listaFooter li {
+  padding: 1px;
+  margin: 1px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.listaFooter a {
+  padding: 5px;
+  margin: 5px;
+  color: #c2c7cc;
+  border-right: #c2c7cc solid 1px;
+  border-left: solid #c2c7cc 1px;
+  text-decoration: none;
+}
+
+.listaFooter a:hover {
+  color: #5C595E;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+/* 
+colores: #3B434C #757D8A
+#D6DDE4 #686464 #5C595E
+ */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #D6DDE4;
+}
+/*# sourceMappingURL=estilos.css.map */

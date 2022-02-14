@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import"secciones/variables";
+
+@import"secciones/logo";
+
+@import"./secciones/nav";
+
+@import"./secciones/titulos";
+
+@import"./secciones/inicio";
+
+@import"./secciones/fotos";
+
+@import"./secciones/contacto";
+
+@import"./secciones/lugares";
+
+@import"../estilos/secciones/sobremi";
+
+@import"./secciones/footer";
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+/* font-family: 'Roboto', sans-serif; */
+
+/* 
+colores: #3B434C #757D8A
+#D6DDE4 #686464 #5C595E
+ */
+
+
+
+
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: $color3;
+}
+
+

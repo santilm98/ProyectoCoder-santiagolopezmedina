@@ -1,0 +1,116 @@
+/* INICIO */
+
+/* inicio Main */
+ 
+
+
+
+.cajaTituloinicio{
+    background-image: url(../fotos/carreraSki.jpg);
+    // filter: opacity(0.5);
+    border: black solid 1px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*  inicio parrafos */
+.cajaInicio{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(to right, $color3, $color2);
+}
+
+.primerParrafo {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../fotos/nievePortada.jpg);
+    background-size: cover;
+    background-position: auto;
+}
+
+
+
+
+/* segundo texto */
+
+.segundoTexto{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.tercerTexto{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+
+
+/* TAMAÑO CELU */
+@media only screen and (max-width: 576px){
+    .primerParrafo{
+        font-size: small;
+    }
+    .segundoTexto{
+        font-size:small;
+    }
+    .tercerTexto{
+        font-size: small;
+    }
+}
+
+
+
+
+
+
+/* inicio fotos CAROUSEL */
+.fotoInicio{
+    display: flex;
+    justify-content: center;
+
+}
+
+.carousel{
+    width: 100%; 
+    height: auto;
+}
+  
+.fotoInicio .carousel-inner img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+/* inicio video */
+
+.contenedorVideoInicio{
+    display: flex;
+    justify-content: center;
+}
+
+ .contenedorVideoInicio video{
+    width: 100%; 
+    background-size: cover;
+    
+} 
+
+
+
+
+

@@ -1,0 +1,49 @@
+
+/* CONTACTO */
+
+/* formulario */
+
+.colorLegend{
+    color: #D6DDE4 ;
+    text-transform: capitalize;
+}
+
+.fondoFormulario{
+    width: 100%;
+    background-image: url(../fotos/centroSki6.jpg);
+    background-size: cover;
+    background-position: auto;
+    
+}
+
+.formulario{
+    margin: 30px;
+    display: flex;
+    justify-content: center  
+   
+}
+
+.cajaFormulario{
+    padding: 50px;
+    width: 500px;
+    border: #22262b solid 1px;
+    
+}
+
+label{
+    color: #fdfeff;
+    text-shadow: #22262b;
+}
+
+
+
+.fondo{
+    background-color: transparent $color3;
+    
+}
+
+.fondoTextarea{
+    background-color:  transparent $color3;
+    height: 200px;
+
+}
