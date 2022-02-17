@@ -1,82 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/* logo */
-.cajalogo {
-  color: #2A3644;
-  height: 75px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #7D7F81;
-  background-image: url(../fotos/fotoPortadahorizontal.jpg);
-  background-size: 100% 800px;
-  background-position: center;
-}
-
-.logo {
-  margin-top: 10px;
-  height: 50px;
-  width: 50px;
-}
-
-/* listas menu */
-/* Menu hamburguesa */
-.navbar {
-  width: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#3B434C), to(#757D8A));
-  background-image: linear-gradient(to right, #3B434C, #757D8A);
-}
-
-.navbar a {
-  color: #D6DDE4;
-  font-size: 17px;
-  text-transform: capitalize;
-}
-
-/*titulo  */
-h1 {
-  margin: 150px;
-  padding: 10px 0px;
-  /* border: solid red 1px; */
-  color: #3B434C;
-  text-transform: capitalize;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-/* EFECTOS TITULOS */
-h2 {
-  margin: 50px;
-  color: #3B434C;
-  text-transform: capitalize;
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
-}
-
-p {
-  color: #3B434C;
-  margin: 20px;
-  padding: 20px;
-}
-
-/* TAMAÑO CELU */
-@media only screen and (max-width: 576px) {
-  h1 {
-    font-size: 25px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-}
-
 /* INICIO */
 /* inicio Main */
 .cajaTituloinicio {
@@ -556,6 +479,97 @@ label {
   background-size: cover;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+/* 
+colores: #3B434C #757D8A
+#D6DDE4 #686464 #5C595E
+ */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #D6DDE4;
+}
+
+/*titulo  */
+h1 {
+  margin: 150px;
+  padding: 10px 0px;
+  /* border: solid red 1px; */
+  color: #3B434C;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* EFECTOS TITULOS */
+h2 {
+  margin: 50px;
+  color: #3B434C;
+  text-transform: capitalize;
+}
+
+p {
+  color: #3B434C;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* TAMAÑO CELU */
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* logo */
+.cajalogo {
+  color: #2A3644;
+  height: 75px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #7D7F81;
+  background-image: url(../fotos/fotoPortadahorizontal.jpg);
+  background-size: 100% 800px;
+  background-position: center;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+/* listas menu */
+/* Menu hamburguesa */
+.navbar {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3B434C), to(#757D8A));
+  background-image: linear-gradient(to right, #3B434C, #757D8A);
+}
+
+.navbar a {
+  color: #D6DDE4;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
 /* FOOTER */
 /* fotter tabla */
 footer {
@@ -595,21 +609,5 @@ footer {
 
 .listaFooter a:hover {
   color: #5C595E;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-/* font-family: 'Roboto', sans-serif; */
-/* 
-colores: #3B434C #757D8A
-#D6DDE4 #686464 #5C595E
- */
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  background-color: #D6DDE4;
 }
 /*# sourceMappingURL=estilos.css.map */

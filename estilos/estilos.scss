@@ -4,12 +4,6 @@
 
 @import"secciones/variables";
 
-@import"secciones/logo";
-
-@import"./secciones/nav";
-
-@import"./secciones/titulos";
-
 @import"./secciones/inicio";
 
 @import"./secciones/fotos";
@@ -20,7 +14,7 @@
 
 @import"../estilos/secciones/sobremi";
 
-@import"./secciones/footer";
+
 
 
 
@@ -47,3 +41,165 @@ body{
 }
 
 
+
+
+
+/*titulo  */
+h1{
+    margin: 150px;
+    padding: 10px 0px;
+    /* border: solid red 1px; */
+    color: $color1;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* EFECTOS TITULOS */
+
+
+
+h2{
+    margin: 50px;
+    color: #3B434C;
+    text-transform: capitalize;
+}
+
+p{
+    color: #3B434C;
+    margin: 20px;
+    padding: 20px; 
+}
+
+
+/* TAMAÑO CELU */
+@media only screen and (max-width: 576px){
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* logo */
+.cajalogo{
+    color: #2A3644;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #7D7F81;
+    background-image: url(../fotos/fotoPortadahorizontal.jpg);
+    background-size: 100% 800px;
+    background-position: center;
+}
+
+.logo{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* listas menu */
+
+
+
+/* Menu hamburguesa */
+
+ 
+.navbar{
+    width: 100%;
+    background-image: linear-gradient( to right, $color1 , $color2 ); 
+}
+
+
+.navbar a{
+    color: #D6DDE4;
+    font-size: 17px;
+    text-transform: capitalize;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+/* fotter tabla */
+
+footer{
+    margin: 100px 0px 0px 0px;
+    padding: 30px;
+    border-top: solid 2px #3B434C;
+    background-color: #22262b;
+}
+
+.listaFooter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:#c2c7cc ;
+    
+}
+.listaFooter li{
+    padding:1px;
+    margin: 1px;
+    list-style-type:none;
+    text-decoration: none;
+
+}
+.listaFooter a{
+    padding:5px;
+    margin: 5px;
+    color:#c2c7cc ;
+    border-right:#c2c7cc solid 1px ;
+    border-left: solid #c2c7cc 1px;
+    text-decoration: none;
+}
+.listaFooter a:hover{
+    color: #5C595E;
+}
