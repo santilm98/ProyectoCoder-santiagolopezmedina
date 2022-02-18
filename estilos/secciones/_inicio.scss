@@ -29,11 +29,12 @@
 }
 
 .primerParrafo {
+    color: $color1;
     display: flex;
     justify-content: flex-end;
     background-image: url(../fotos/nievePortada.jpg);
     background-size: cover;
-    background-position: auto;
+    background-position: center;
 }
 
 

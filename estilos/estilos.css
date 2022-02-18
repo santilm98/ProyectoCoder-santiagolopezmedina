@@ -24,6 +24,7 @@
 }
 
 .primerParrafo {
+  color: #3B434C;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +33,7 @@
           justify-content: flex-end;
   background-image: url(../fotos/nievePortada.jpg);
   background-size: cover;
-  background-position: auto;
+  background-position: center;
 }
 
 /* segundo texto */
@@ -363,6 +364,15 @@ label {
   height: 200px;
 }
 
+.ubicacionContacto {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
 /* LUGARES */
 .tituloLugar {
   margin-top: 100px;
@@ -409,15 +419,27 @@ label {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    font-size: 17px;
   }
   /* ubicacion */
-  iframe {
+  .ubicacion {
+    margin-bottom: 150px;
     width: 100%;
-    height: 300px;
+    height: 350px;
   }
 }
 
 @media only screen and (max-width: 767px) {
+  .lugaresMapa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   /* parrafo lugar*/
   .textoLugar {
     margin: 20px;
@@ -429,12 +451,17 @@ label {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 15px;
+    font-size: small;
+    text-align: center;
   }
   /* ubicacion */
+  .ubicacion {
+    width: 100%;
+    height: 270px;
+  }
   iframe {
     width: 100%;
-    height: 230px;
+    height: 100%;
   }
 }
 
