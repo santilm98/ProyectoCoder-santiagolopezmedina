@@ -1,5 +1,17 @@
 /* SOBRE MI */
 
+// TITULO
+.cajaTituloPaginasSobremi{
+    background-image: url(../fotos/snowPortada.jpg);
+    background-size: cover;
+    background-position: center;
+    border: black solid 1px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+
 /* PARRAFO SOBRE MI */
 
 .textoSobremi{
