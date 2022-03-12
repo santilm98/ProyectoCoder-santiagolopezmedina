@@ -1,6 +1,21 @@
 
 /* CONTACTO */
 
+
+// PORTADA CONTACTTO
+
+.cajaTituloPaginasContacto{
+    background-image: url(../fotos/portadacONTACTO.jpg);
+    background-size: cover;
+    background-position : bottom;
+    border: black solid 1px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: $color3 !important;
+}
+
+
 /* formulario */
 
 .colorLegend{

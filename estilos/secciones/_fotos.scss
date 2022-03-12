@@ -1,5 +1,19 @@
 /* FOTOS*/
 
+// FOTO DE PORTADA TITULO
+
+.cajaTituloPaginasFotos{
+    background-image: url(../fotos/portadaFotos.jpg);
+    background-size: cover;
+    background-position : right;
+    border: black solid 1px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+
+
 /* Grid para fotos */
 
 .galeria{
